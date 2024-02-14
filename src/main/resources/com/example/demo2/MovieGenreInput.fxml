@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="420.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.movieSearchingOptiom">
+    <children>
+        <TextField fx:id="genreTextField" alignment="CENTER" layoutX="90.0" layoutY="85.0" prefHeight="30.0" prefWidth="225.0" promptText="Enter  Genre">
+            <font>
+                <Font size="13.0" />
+            </font></TextField>
+        <Button contentDisplay="CENTER" layoutX="110.0" layoutY="160.0" mnemonicParsing="false" onAction="#onPrintWithThisGenreClick" text="Print Movie(s) With This Genre">
+            <font>
+                <Font size="13.0" />
+            </font></Button>
+    </children>
+</AnchorPane>

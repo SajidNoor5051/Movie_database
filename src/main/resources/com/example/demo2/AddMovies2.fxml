@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="420.0" prefWidth="680.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.HomePageLogin">
+   <children>
+      <Button alignment="CENTER" layoutX="440.0" layoutY="350.0" minHeight="30.0" mnemonicParsing="false" onAction="#onBackClick" prefHeight="40.0" prefWidth="130.0" text="Back To Main Menu" />
+      <TextField fx:id="addMovieName" alignment="CENTER" layoutX="44.0" layoutY="79.0" prefHeight="40.0" prefWidth="162.0" promptText="Enter Movie Title :">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="addReleaseYear" alignment="CENTER" layoutX="44.0" layoutY="197.0" prefHeight="40.0" prefWidth="162.0" promptText="Enter Release Year :">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="genreTextField1" layoutX="14.0" layoutY="324.0" prefHeight="34.0" prefWidth="63.0" promptText="Enter genres(PLease Enter At least one genre. You can add maximum 3 genres. Input format Example: Genre1,Genre2,Genre3):">
+         <font>
+            <Font name="Arial Narrow" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="addRunningTime" alignment="CENTER" layoutX="420.0" layoutY="78.0" prefHeight="40.0" prefWidth="162.0" promptText="Enter Running TIme :">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="addBudget" alignment="CENTER" layoutX="420.0" layoutY="197.0" prefHeight="40.0" prefWidth="162.0" promptText="Enter Budget : ">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="addRevenue" alignment="CENTER" layoutX="420.0" layoutY="294.0" prefHeight="40.0" prefWidth="162.0" promptText="Enter Revenue :">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="13.0" />
+         </font>
+      </TextField>
+      <Label fx:id="addTitleLabel2" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="50.0" prefHeight="27.0" prefWidth="226.0" text="Movie Title" textFill="WHITE" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="42.0" layoutY="175.0" prefHeight="19.0" prefWidth="162.0" text="Release Year " textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="10.0" layoutY="280.0" prefHeight="40.0" prefWidth="70.0" text="Genre 1" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="422.0" layoutY="52.0" prefHeight="27.0" prefWidth="162.0" text="Running TIme " textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="422.0" layoutY="167.0" prefHeight="30.0" prefWidth="162.0" text="Budget" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="420.0" layoutY="261.0" prefHeight="34.0" prefWidth="162.0" text="Revenue" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="addTitleLabel1" alignment="CENTER" layoutX="3.0" layoutY="27.0" prefHeight="27.0" prefWidth="254.0" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Button layoutX="75.0" layoutY="127.0" mnemonicParsing="false" onAction="#onCheckMovieClick" prefHeight="27.0" prefWidth="90.0" text="Check Movie" />
+      <Button layoutX="282.0" layoutY="354.0" mnemonicParsing="false" onAction="#onAddClick" prefHeight="40.0" prefWidth="78.0" text="Add ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="successfulAddMessage" alignment="CENTER" contentDisplay="CENTER" layoutY="11.0" prefHeight="40.0" prefWidth="680.0" textFill="#1bf814">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font></Label>
+      <TextField fx:id="genreTextField2" layoutX="86.0" layoutY="324.0" prefHeight="34.0" prefWidth="63.0" />
+      <TextField fx:id="genreTextField3" layoutX="161.0" layoutY="324.0" prefHeight="34.0" prefWidth="63.0" />
+      <Label alignment="CENTER" layoutX="80.0" layoutY="281.0" prefHeight="34.0" prefWidth="70.0" text="Genre 2" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="156.0" layoutY="281.0" prefHeight="34.0" prefWidth="70.0" text="Genre 3" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

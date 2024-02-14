@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="680.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.movieSearchingOptiom">
+   <left>
+      <AnchorPane fx:id="anchorPaneLeft" prefHeight="420.0" prefWidth="250.0" style="-fx-background-color: #000000;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="26.0" layoutY="14.0" mnemonicParsing="false" onAction="#onMovieTitleClick" prefHeight="30.0" prefWidth="190.0" text="By Movie Title">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="26.0" layoutY="69.0" mnemonicParsing="false" onAction="#onByReleaseYearClick" prefHeight="30.0" prefWidth="190.0" text="By Release Year">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="26.0" layoutY="122.0" mnemonicParsing="false" onAction="#onByGenreClick" prefHeight="30.0" prefWidth="190.0" text="By Genre">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="26.0" layoutY="176.0" mnemonicParsing="false" onAction="#onByProductionCompanyClick" prefHeight="30.0" prefWidth="190.0" text="By Production Company">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="26.0" layoutY="231.0" mnemonicParsing="false" onAction="#onByRunningTimeClick" prefHeight="30.0" prefWidth="190.0" text="By Running Time">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="26.0" layoutY="285.0" mnemonicParsing="false" onAction="#onTopTenMoviesClick" prefHeight="30.0" prefWidth="189.0" text="Top 10 Movies">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="51.0" layoutY="342.0" mnemonicParsing="false" onAction="#onBackToMainMenuClick" prefHeight="48.0" prefWidth="146.0" text="Back To Main Menu">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+   </left>
+   <right>
+      <AnchorPane fx:id="anchorPaneRight" prefHeight="420.0" prefWidth="430.0" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>

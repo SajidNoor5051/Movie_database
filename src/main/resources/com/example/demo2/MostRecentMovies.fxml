@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.showProductionCompanyInfo">
+   <children>
+      <TextField fx:id="productionCompanyInput1" alignment="CENTER" layoutX="90.0" layoutY="85.0" prefHeight="30.0" prefWidth="225.0" promptText="Enter Production Company">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+      <Button fx:id="printMostRecentMovies" alignment="CENTER" layoutX="160.0" layoutY="160.0" mnemonicParsing="false" onAction="#onPrintRecentMoviesClick" text="PRINT">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <Label fx:id="productionCompanyLabel1" alignment="CENTER" contentDisplay="CENTER" layoutY="33.0" minHeight="-Infinity" minWidth="-Infinity" prefWidth="430.0" text="Enter Production Company Name">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="outputLabel2" alignment="CENTER" contentDisplay="CENTER" layoutY="220.0" prefWidth="430.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

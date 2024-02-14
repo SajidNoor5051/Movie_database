@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.PrintTable">
+   <children>
+      <TableView fx:id="printTable" layoutY="80.0" prefWidth="1000.0">
+        <columns>
+          <TableColumn fx:id="movieName" minWidth="-1.0" prefWidth="139.0" text="Movie Name" />
+          <TableColumn fx:id="releaseYear" prefWidth="66.0" text="Year" />
+            <TableColumn fx:id="genres" minWidth="187.0" prefWidth="228.0" text="Genres">
+               <columns>
+                  <TableColumn fx:id="genre1" prefWidth="75.0" text="Genre 1" />
+                  <TableColumn fx:id="genre2" prefWidth="75.0" text="Genre 2" />
+                  <TableColumn fx:id="genre3" prefWidth="75.0" text="Genre 3" />
+               </columns></TableColumn>
+            <TableColumn fx:id="runningTime" prefWidth="89.0" text="Run Time" />
+            <TableColumn fx:id="productionCompanyName" prefWidth="216.0" text="Production Company" />
+            <TableColumn fx:id="budget" minWidth="0.0" prefWidth="111.0" text="Budget" />
+            <TableColumn fx:id="revenue" minWidth="0.0" prefWidth="151.0" text="Revenue" />
+        </columns>
+      </TableView>
+      <Button layoutX="10.0" layoutY="20.0" mnemonicParsing="false" onAction="#onBackClick" prefHeight="45.0" prefWidth="130.0" text="Back " />
+   </children>
+</AnchorPane>

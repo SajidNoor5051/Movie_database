@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.PrintMaxRevenueTable">
+    <children>
+        <Button alignment="CENTER" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#onBackClick" text="BACK" AnchorPane.leftAnchor="10.0">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </Button>
+        <TableView fx:id="table" minHeight="330.0" minWidth="600.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="70.0">
+            <columns>
+                <TableColumn fx:id="movieName" prefWidth="190.0" text="Movie Title" />
+                <TableColumn fx:id="productionCompany" minWidth="0.0" prefWidth="269.0" text="Production Company" />
+                <TableColumn fx:id="revenue" prefWidth="140.0" text="Revenue" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

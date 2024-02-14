@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="420.0" prefWidth="680.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.AddMovie">
+   <children>
+      <Button alignment="CENTER" layoutX="440.0" layoutY="360.0" minHeight="30.0" mnemonicParsing="false" onAction="#onBackToMainMenuClick" prefWidth="130.0" text="Back To Main Menu" />
+      <TextField fx:id="addMovieName" alignment="CENTER" layoutX="44.0" layoutY="70.0" prefHeight="27.0" prefWidth="162.0" promptText="Enter Movie Title :">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="addReleaseYear" alignment="CENTER" layoutX="44.0" layoutY="182.0" prefHeight="27.0" prefWidth="162.0" promptText="Enter Release Year :">
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+      <TextField fx:id="addGenres" layoutX="42.0" layoutY="270.0" prefHeight="27.0" prefWidth="162.0" promptText="Enter genres(PLease Enter At least one genre. You can add maximum 3 genres. Input format Example: Genre1,Genre2,Genre3):">
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+      <TextField fx:id="addRunningTime" alignment="CENTER" layoutX="420.0" layoutY="50.0" prefHeight="27.0" prefWidth="162.0" promptText="Enter Running TIme :">
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+      <TextField fx:id="addProductionCompany" layoutX="420.0" layoutY="136.0" prefHeight="27.0" prefWidth="162.0" promptText="Enter Production Company :">
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+      <TextField fx:id="addBudget" alignment="CENTER" layoutX="420.0" layoutY="228.0" prefHeight="27.0" prefWidth="162.0" promptText="Enter Budget : ">
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+      <TextField fx:id="addRevenue" alignment="CENTER" layoutX="420.0" layoutY="315.0" prefHeight="27.0" prefWidth="162.0" promptText="Enter Revenue :">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <Label fx:id="addTitleLabel2" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="47.0" prefHeight="27.0" prefWidth="238.0" text="Movie Title" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="42.0" layoutY="160.0" prefHeight="19.0" prefWidth="162.0" text="Release Year " textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="44.0" layoutY="245.0" prefHeight="19.0" prefWidth="156.0" text="Genres">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="422.0" layoutY="28.0" prefHeight="19.0" prefWidth="162.0" text="Running TIme ">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="420.0" layoutY="109.0" prefHeight="27.0" prefWidth="162.0" text="Production Company">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="419.0" layoutY="208.0" prefHeight="19.0" prefWidth="162.0" text="Budget">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="420.0" layoutY="297.0" prefHeight="17.0" prefWidth="162.0" text="Revenue">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="addTitleLabel1" alignment="CENTER" layoutX="20.0" layoutY="29.0" prefHeight="19.0" prefWidth="220.0">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Button layoutX="72.0" layoutY="103.0" mnemonicParsing="false" onAction="#onCheckMovieClick" prefHeight="27.0" prefWidth="93.0" text="Check Movie" />
+      <Button layoutX="282.0" layoutY="360.0" mnemonicParsing="false" onAction="#onAddClick" prefHeight="34.0" prefWidth="78.0" text="Add ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
